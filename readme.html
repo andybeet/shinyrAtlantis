@@ -88,7 +88,12 @@
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
       
     </div><!--/.nav-collapse -->
@@ -127,7 +132,7 @@
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"Atlantis-Ecosystem-Model/shinyrAtlantis"</span><span class="op">)</span></code></pre></div>
 <p>Load and attach the package.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 <span class="co">#&gt; Loading required package: shiny</span></code></pre></div>
 <p>Some example Atlantis files are provided in the package so that the shiny applications can be explored straight away. Note that some of the example Atlantis files are incomplete. The shiny application allows exploration of most incomplete Atlantis files. See the examples presented below for how to use the shiny applications. Also see the documentation provided by typing <code><a href="reference/shinyrAtlantis.html">?shinyrAtlantis</a></code>.</p>
 <p>The code assumes that in the group.csv file the header of the column that contains the group type is labeled <strong>GroupType</strong> (it is also commonly labelled InvertType, which is missleading and will cause my code to crash).</p>
@@ -139,7 +144,7 @@
 </h2>
 <p><strong>sh.dist</strong>: A shiny application for generating spatial distributions with constant density (per unit area). Code is located in file <code>shdist.R</code>.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 
 <span class="va">bgm.file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"BanzareAtlantis.bgm"</span>, package <span class="op">=</span> <span class="st">"shinyrAtlantis"</span><span class="op">)</span>
 
@@ -152,7 +157,7 @@
 </h2>
 <p><strong>sh.prm</strong>: A shiny application for exploring the data in the bioloy parameter file. Code is located in file <code>shprm.R</code>.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 
 <span class="va">bgm.file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"BanzareAtlantis.bgm"</span>, package <span class="op">=</span> <span class="st">"shinyrAtlantis"</span><span class="op">)</span>
 <span class="va">grp.file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"AntarcticGroups.csv"</span>, package <span class="op">=</span> <span class="st">"shinyrAtlantis"</span><span class="op">)</span>
@@ -167,7 +172,7 @@
 </h2>
 <p><strong>sh.init</strong>: A shiny application for exploring the initial conditions file. Code is located in file <code>shinit.R</code>.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 
 <span class="va">bgm.file</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"BanzareAtlantis.bgm"</span>, package <span class="op">=</span> <span class="st">"shinyrAtlantis"</span><span class="op">)</span>
 <span class="va">nc.file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"input.nc"</span>, package <span class="op">=</span> <span class="st">"shinyrAtlantis"</span><span class="op">)</span>
@@ -181,7 +186,7 @@
 </h2>
 <p><strong>sh.forcings</strong>: A shiny application for exploring the forcings data (time-series of salt and temperature). Code is located in file <code>shforce.R</code>.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 
 <span class="va">salinity.file</span>    <span class="op">&lt;-</span> <span class="st">"GBR108_salt.nc"</span>       <span class="co"># this file is not included in the package</span>
 <span class="va">temperature.file</span> <span class="op">&lt;-</span> <span class="st">"GBR108_temp.nc"</span>       <span class="co"># this file is not included in the package</span>
@@ -204,7 +209,7 @@
 </h2>
 <p><strong>make.init.nc</strong>: An application for creating an Atlatnis initial condition file.</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">shinyrAtlantis</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis">shinyrAtlantis</a></span><span class="op">)</span>
 
 <span class="co">## Step 1  -  Create your template files</span>
 <span class="va">grp.file</span>   <span class="op">&lt;-</span> <span class="st">"Groups.csv"</span>                                 <span class="co"># this file is not included in the package</span>

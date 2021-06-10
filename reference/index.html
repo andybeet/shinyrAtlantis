@@ -88,7 +88,12 @@
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/Atlantis-Ecosystem-Model/shinyrAtlantis/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
       
     </div><!--/.nav-collapse -->
@@ -116,7 +121,7 @@
     <tbody>
       <tr>
         <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
+          <h2 id="section-package" class="hasAnchor"><a href="#section-package" class="anchor"></a>Package</h2>
           <p class="section-desc"></p>
         </th>
       </tr>
@@ -128,22 +133,66 @@
       <tr>
         
         <td>
-          <p><code><a href="DisplayInitializationExample.html">DisplayInitializationExample()</a></code> </p>
+          <p><code><a href="shinyrAtlantis.html">shinyrAtlantis</a></code> </p>
         </td>
-        <td><p>Spatial Distributions Shiny example</p></td>
+        <td><p>A package for visualising Atlantis input data</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-shiny-apps" class="hasAnchor"><a href="#section-shiny-apps" class="anchor"></a>Shiny apps</h2>
+          <p class="section-desc"><p>Main shiny apps to display Atlantis input data</p></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="sh.prm.html">sh.prm()</a></code> </p>
+        </td>
+        <td><p>Shiny application for viewing Atlantis biological parameters</p></td>
       </tr><tr>
         
         <td>
-          <p><code><a href="DisplayParametersExample.html">DisplayParametersExample()</a></code> </p>
+          <p><code><a href="sh.init.html">sh.init()</a></code> </p>
         </td>
-        <td><p>Spatial Distributions Shiny example</p></td>
+        <td><p>Shiny application for viewing Atlantis initialisation data</p></td>
       </tr><tr>
         
         <td>
-          <p><code><a href="SpatialDistributionsExample.html">SpatialDistributionsExample()</a></code> </p>
+          <p><code><a href="sh.forcings.html">sh.forcings()</a></code> </p>
         </td>
-        <td><p>Spatial Distributions Shiny example</p></td>
+        <td><p>Shiny application for viewing Atlantis forcings data</p></td>
       </tr><tr>
+        
+        <td>
+          <p><code><a href="sh.dist.html">sh.dist()</a></code> </p>
+        </td>
+        <td><p>Shiny application for generating horizontal distributions</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="sh.feeding.html">sh.feeding()</a></code> </p>
+        </td>
+        <td><p>Shiny application for viewing Atlantis feeding and growth data</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-intermediate-get-make-functions" class="hasAnchor"><a href="#section-intermediate-get-make-functions" class="anchor"></a>Intermediate get/make functions</h2>
+          <p class="section-desc"><p>Functions used genarate list objects for use in shiny apps</p></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
         
         <td>
           <p><code><a href="get.init.nc.html">get.init.nc()</a></code> </p>
@@ -152,15 +201,15 @@
       </tr><tr>
         
         <td>
-          <p><code><a href="make.init.csv.html">make.init.csv()</a></code> </p>
-        </td>
-        <td><p>Function that generates two csv initial condition templates</p></td>
-      </tr><tr>
-        
-        <td>
           <p><code><a href="make.init.nc.html">make.init.nc()</a></code> </p>
         </td>
         <td><p>Function that generates a NetCDF file of initial conditions</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="make.init.csv.html">make.init.csv()</a></code> </p>
+        </td>
+        <td><p>Function that generates two csv initial condition templates</p></td>
       </tr><tr>
         
         <td>
@@ -185,42 +234,37 @@
           <p><code><a href="make.sh.prm.object.html">make.sh.prm.object()</a></code> </p>
         </td>
         <td><p>Function that generates a list object used by sh.prm</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-examples" class="hasAnchor"><a href="#section-examples" class="anchor"></a>Examples</h2>
+          <p class="section-desc"><p>Shiny examples based on Antarctica model</p></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="SpatialDistributionsExample.html">SpatialDistributionsExample()</a></code> </p>
+        </td>
+        <td><p>Spatial Distributions Shiny example</p></td>
       </tr><tr>
         
         <td>
-          <p><code><a href="sh.dist.html">sh.dist()</a></code> </p>
+          <p><code><a href="DisplayParametersExample.html">DisplayParametersExample()</a></code> </p>
         </td>
-        <td><p>Shiny application for generating horizontal distributions</p></td>
+        <td><p>Spatial Distributions Shiny example</p></td>
       </tr><tr>
         
         <td>
-          <p><code><a href="sh.feeding.html">sh.feeding()</a></code> </p>
+          <p><code><a href="DisplayInitializationExample.html">DisplayInitializationExample()</a></code> </p>
         </td>
-        <td><p>Shiny application for viewing Atlantis feeding and growth data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="sh.forcings.html">sh.forcings()</a></code> </p>
-        </td>
-        <td><p>Shiny application for viewing Atlantis forcings data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="sh.init.html">sh.init()</a></code> </p>
-        </td>
-        <td><p>Shiny application for viewing Atlantis initialisation data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="sh.prm.html">sh.prm()</a></code> </p>
-        </td>
-        <td><p>Shiny application for viewing Atlantis biological parameters</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="shinyrAtlantis.html">shinyrAtlantis</a></code> </p>
-        </td>
-        <td><p>A package for visualising Atlantis input data</p></td>
+        <td><p>Spatial Distributions Shiny example</p></td>
       </tr>
     </tbody>
     </table>
